@@ -3,62 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,300;0,500;1,100;1,300;1,400&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <div>
-    <form action="">
+    <div class="divpadre">
+    <form action="" class="formulario">
         <h1>Formulario de contacto</h1>
 
-        <div>
+        <div class="divform">
             <label for="">Nombre*</label>
             <div>
             <input id="name" type="text" placeholder="Escribe tu nombre">            
             </div>
         </div>
 
-        <div>
+        <div class="divform">
             <label for="">Email*</label>
             <div>
             <input id="email" type="email" placeholder="Escribe tu Email">            
             </div>
         </div>
 
-        <div>
+        <div class="divform">
             <label for="">Teléfono</label>
             <div>
-            <input id="phone" type="number" placeholder="Escribe tu teléfono">            
+            <input id="phone" type="text" placeholder="Escribe tu teléfono">            
             </div>
         </div>
 
-        <div>
+        <div class="divform">
             <label for="">Sitio web</label>
             <div>
             <input id="web" type="text" placeholder="Escribe la URL de tu web">            
             </div>     
         </div>
 
-        <div>
+        <div class="divform">
             <label for="">Asunto*</label>
             <div>
             <input id="asunto" type="text" placeholder="Escribe un asunto">           
             </div>   
         </div>
 
-        <div>
-            <label for="">Mensaje*</label>
+        <div class="divform">
+            <label for="mensaje">Mensaje*</label>
             <div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Deja aquí tu comentario"></textarea>        
+            <textarea id="mensaje" placeholder="Deja aquí tu comentario"></textarea>        
             </div>   
         </div>
 
-        <div>
-        <button type="submit">Enviar</button>
-        </div>
-
-        <div>
-        * los campos son obligatorios
-        </div>
+       
+        <button type="submit" class="buttonform">ENVIAR</button>
+       
+        <p>* los campos son obligatorios</p> 
         
     </form>
     </div>
